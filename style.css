@@ -1,0 +1,141 @@
+/* スタートのパープルカラーフィルム 
+----------------------------------------*/
+.question {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: rgba(14, 29, 80, 0.8);
+    color: #f5f9fa;
+    padding-top: 350px;
+}
+
+h1 {
+    margin: 3px;
+    font-size: 55px;
+    text-align: center  
+}
+
+/* フィナーレのSOLD OUT画面 
+-----------------------------------------*/
+.film {
+    display: none;
+}
+
+.question_0 {
+    display: block;
+    position: fixed;
+    top: 16%;
+    left: 1.5%;
+    width: 94.5%;
+    height: 50%;
+    background-color: rgba(238, 238, 232, 0.8);
+    color: #031216;
+    padding-top: 200px;
+    font-size: 30px;
+}
+
+.question_0 li{
+    font-size: 150px;
+    font-weight: 200;
+    list-style: none;
+    text-align: center;
+}
+/* フィナーレのアップルのイベント見本
+----------------------------------- */
+img {
+    width: 100px;
+    display: none;
+}
+
+.body {
+    width: 100%;
+    line-height: 0px;
+}
+
+/* じゃんけん要素の自分の選択ボックス
+------------------------------------ */
+.ans {
+    width: 100%;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.ans li {
+    font-size: 20px;
+    text-align: center;
+    width: 570px;
+    display:table-cell;  
+}
+
+.ans li:hover{
+    background: #110111;
+    color:#fff;
+}
+
+
+/* コンピューター側のメイン質問 
+-------------------------------------*/
+#pc {
+    display: none;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    justify-content: center;
+    width: 53%;
+    color: white;
+    margin: 0px;
+}
+
+/* 自分のクリックイベント後のパネル上のサブコメント 
+--------------------------------------------*/
+.pc_ans {
+    font-size: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+/* 即ポチをクリックした回数 マックス１０回で終了
+------------------------------------------- */
+#scoreBoard {
+    display: flex;
+    width: 47%;
+    align-items: center;
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+/*  */
+.vic {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* メインパネル部分
+----------------------------------- */
+li:hover{
+    background: #9bb2c9;
+    color:#fff;
+}
+
+.cube li {
+     list-style-type:none;
+     color:rgb(24, 22, 22);
+     margin: 0;
+     text-align: center;
+     width: 30px;
+     height: 30px;
+     /* border: 0.3px solid rgb(229, 226, 226); */
+}
+
+.cube {
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline-start: 20px;
+}
