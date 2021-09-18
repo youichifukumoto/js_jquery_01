@@ -25,6 +25,17 @@ $(function () {
     var audio2 = new Audio('PC-Mouse03-08(R).mp3');
     audio2.play();
 
+    // 検討中...をクリック時の効果音
+
+    var audio３ = new Audio('Quiz-Wrong_Buzzer02-1.mp3');
+    audio３.play();
+
+
+    // 興味なしをクリックした時の効果音
+
+    var audio４ = new Audio('Quiz-Wrong_Buzzer02-2.mp3');
+    audio４.play();
+
     // スタートのフィルム画面
 
     $(".question").click(function () {
@@ -1372,6 +1383,7 @@ $(function () {
             // count["me"]--;
         }
         document.querySelector("#scoreBoard").innerHTML = count["me"];
+        audio３.play();
     };
 
     // 興味なしーーー。を押してきたら
@@ -1423,5 +1435,6 @@ $(function () {
             // count["me"]--;
         }
         document.querySelector("#scoreBoard").innerHTML = count["me"];
+        audio４.play();
     };
 });
